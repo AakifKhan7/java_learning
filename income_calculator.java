@@ -87,5 +87,7 @@ class SalaryCalculator{
         System.out.printf("Annual income of an Employee is: %.2f%n", annualSalary);
         System.out.printf("Income Tax to be paid by an Employee is: %.2f%n", incomeTax);
         
+
+        sc.close();
     }
 }

@@ -16,6 +16,8 @@ class NextDay{
         else{
             System.out.print("Enter year: ");
             int nowYear = sc.nextInt();
+
+            sc.close();
         
             int next_day = nowDate + 1;
 

@@ -23,11 +23,9 @@ class RockPaperScissors{
         System.out.print("Enter your choice(1-3): ");
         int userChoice = sc.nextInt();
 
-        int computerChoice = (int)(Math.random()  * 10) % 3;
+        int computerChoice = (int)(Math.random()  * 3) + 1;
 
-        while(computerChoice == 0){
-            computerChoice = (int)(Math.random() * 10) % 3;
-        }
+        sc.close();
 
         switch (userChoice) {
             case 1:

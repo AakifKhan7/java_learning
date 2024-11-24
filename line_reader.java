@@ -31,6 +31,6 @@ class LineReader {
             System.out.println(lines[i]);
         }
         System.out.println("Entered Lines count: "+ lineCount);
-        System.out.println("Lines starting with 'A' and ending with 'E': " + lineAE);
+        System.out.println("Lines starting with 'A' or 'E': " + lineAE);
     }
 }

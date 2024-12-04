@@ -16,5 +16,6 @@ class Inverted_pyramid_number {
             }
             System.out.println();
         }
+        sc.close();
     }    
 }

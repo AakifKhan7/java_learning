@@ -15,5 +15,6 @@ class Reverse {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

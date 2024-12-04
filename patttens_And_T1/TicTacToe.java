@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 class TicTacToe {
     public static void main(String[] args) {
@@ -50,7 +50,7 @@ class TicTacToe {
             currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
             moves++;
         }
-        sc.close();
         System.out.println("It's a draw!");
+        sc.close();
     }
 }

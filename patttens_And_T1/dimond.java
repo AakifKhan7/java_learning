@@ -25,6 +25,6 @@ class dimond {
             }
             System.out.println();
         }
-        
+        sc.close();
     }    
 }

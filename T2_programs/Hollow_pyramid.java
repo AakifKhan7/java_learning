@@ -1,3 +1,4 @@
+package T2_programs;
 import java.util.Scanner;
 
 class Hollow_pyramid {
@@ -18,8 +19,8 @@ class Hollow_pyramid {
                 else{
                     System.out.print(" ");
                 }
-                if((i == rows - 1)){
-                    System.out.print("*");
+                if((i == rows - 1) && j < i && j != (i * 2) - 1){
+                    System.out.print("* ");
                 }
 
             }

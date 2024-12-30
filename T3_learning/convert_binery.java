@@ -21,8 +21,12 @@ public class convert_binery {
     public static void main(String[] args) {
         convert_binery ob1 = new convert_binery();
         int a = 11011;
-
-        int count = String.valueOf(a).length();
+        int temp = a;
+        int count = 0;
+        while(temp/10 != 0){
+            count++;
+            temp = temp/10;
+        }
         int result = ob1.convert(a, count, 0);
         System.out.println(result);
     }

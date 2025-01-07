@@ -2,7 +2,6 @@ package T3_learning;
 
 class PB576{
     int a;
-    int smallest = 0;
     int smallest(int[] arr, int index, int min){
         if(index == arr.length){
             return min;

@@ -1,17 +1,18 @@
 package T3_learning;
 
-class reverse_number {
+class reverse_number1 {
     
-    int reverse(int a){
+    int reverse(int a, int reversed){
         if(a == 0){
-            return 0;
+            return reversed;
         }
-        return (a % 10) + reverse(a / 10) * 10;
+        reversed = reversed * 10 + (a % 10);
+        return reverse(a / 10, reversed);
     }
 
     public static void main(String[] args) {
-        reverse_number ob1 = new reverse_number();
-        int s = ob1.reverse(325);
+        reverse_number1 ob1 = new reverse_number1();
+        int s = ob1.reverse(523, 0);
         System.out.println(s);
     }
 }
